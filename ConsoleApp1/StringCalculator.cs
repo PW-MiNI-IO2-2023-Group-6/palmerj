@@ -8,8 +8,8 @@ namespace Workshop
     {
         public static int SumString(String str)
         {
-            //if (str == String.Empty)
-            //    return 0;
+            if (str == String.Empty)
+               return 0;
 
             int result = 0;
             String[] numbers = str.Split('\n', ',');
